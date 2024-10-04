@@ -26,9 +26,14 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 	<!-- Document Title
 	============================================= -->
-	<title>Jewellery Boutique | Canvas</title>
+	<title>Ontario Tech Hack Station</title>
 
 </head>
 
@@ -49,7 +54,7 @@
 						============================================= -->
 						<div id="logo">
 							<a href="index.html">
-								<img class="py-2 animated infinite" src="/images/logo.png" alt="Canvas Logo" style="animation: spin 2.5s infinite linear;">
+								<img class="py-2 animated infinite" src="images/logo.png" alt="Canvas Logo" style="animation: spin 2.5s infinite linear;">
 							</a>
 						</div><!-- #logo end -->
 
@@ -105,85 +110,14 @@
 						<nav class="primary-menu me-lg-auto not-dark">
 
 							<ul class="menu-container">
-								<li class="menu-item mega-menu mega-menu-full">
-									<a class="menu-link" href="#"><div>Products <i class="bi- uil uil-plus"></i></div></a>
-									<div class="mega-menu-content mega-menu-style-2">
-										<div class="container">
-											<div class="row">
-												<div class="sub-menu-container mega-menu-column col-12">
-
-													<div class="d-flex justify-content-center align-items-md-center py-4 py-md-3">
-														<div class="col-lg-6">
-															<ul class="mega-menu-links">
-																<li class="target-link-active" data-target="#target-all">
-																	<a href="#">All Collections</a>
-																</li>
-																<li data-target="#target-necklace">
-																	<a href="#">Necklace</a>
-																</li>
-																<li data-target="#target-bracelets">
-																	<a href="#">Bracelets</a>
-																</li>
-																<li data-target="#target-rings">
-																	<a href="#">Rings</a>
-																</li>
-																<li data-target="#target-earrings">
-																	<a href="#">Earrings</a>
-																</li>
-															</ul>
-														</div>
-														<div class="d-none d-lg-flex col-lg-5 col-xl-4 target-content">
-															<div class="target-active" id="target-all">
-																<img src="demos/jewellery-boutique/images/menu/1.jpg" alt="">
-															</div>
-															<div class="" id="target-necklace">
-																<img src="demos/jewellery-boutique/images/menu/2.jpg" alt="">
-															</div>
-															<div class="" id="target-bracelets">
-																<img src="demos/jewellery-boutique/images/menu/3.jpg" alt="">
-															</div>
-															<div class="" id="target-rings">
-																<img src="demos/jewellery-boutique/images/menu/4.jpg" alt="">
-															</div>
-															<div class="" id="target-earrings">
-																<img src="demos/jewellery-boutique/images/menu/5.jpg" alt="">
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="menu-item mega-menu mega-menu-full">
-									<a class="menu-link" href="#"><div>About Us <i class="bi- uil uil-plus"></i></div></a>
-									<div class="mega-menu-content mega-menu-style-2">
-										<div class="container">
-											<div class="row">
-												<div class="sub-menu-container mega-menu-column col-12">
-													<div class="d-flex justify-content-center align-items-md-center py-4">
-														<ul class="mega-menu-links">
-															<li>
-																<a href="#">Story</a>
-															</li>
-															<li>
-																<a href="#">Payments</a>
-															</li>
-															<li>
-																<a href="#">Shipping</a>
-															</li>
-															<li>
-																<a href="#">FAQs</a>
-															</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+								<li class="menu-item">
+									<a class="menu-link" href="#team"><div>Team</div></a>
 								</li>
 								<li class="menu-item">
-									<a class="menu-link" href="#"><div>Contact</div></a>
+									<a class="menu-link" href="#events"><div>Events</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="#contact"><div>Contact</div></a>
 								</li>
 							</ul>
 							<!-- Alternate Mobile Menu -->
@@ -252,7 +186,7 @@
 						<div class="swiper-slide dark">
 							<div class="container">
 								<div class="slider-caption slider-caption-center">
-									<h2 data-animate="fadeInUp">Welcome to Canvas</h2>
+									<h2 data-animate="fadeInUp">Your Friendly Neighbourhood Tech Club!</h2>
 									<p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">Create just what you need for your Perfect Website. Choose from a wide range of Elements &amp; simply put them on our Canvas.</p>
 								</div>
 							</div>
@@ -373,7 +307,7 @@
 				<div class="clear"></div>
 
 				<!-- Product Carousel Section - #4 -->
-				<div class="section bg-transparent mt-0 mt-lg-5">
+				<div id="team" class="section bg-transparent mt-0 mt-lg-5">
 					<div class="row gy-3">
 						<div class="col-lg-3">
 							<div class="product ps-5 pt-lg-5">
@@ -492,7 +426,7 @@
 
 				
 
-				<div class="owl-carousel image-carousel carousel-widget flip-card-wrapper" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="2" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="4" style="overflow: visible;">
+				<div id="events" class="owl-carousel image-carousel carousel-widget flip-card-wrapper" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="2" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="4" style="overflow: visible;">
 
 					<div class="py-4">
 						<div class="flip-card">
@@ -649,7 +583,7 @@
 				</div> -->
 
 				<!-- Banner Section - #5 -->
-				<div class="section my-0 mt-lg-5 pb-0 pb-lg-6 bg-transparent">
+				<div id="contact" class="section my-0 mt-lg-5 pb-0 pb-lg-6 bg-transparent">
 					<div class="container mw-lg">
 
 						<div class="row justify-content-center">
@@ -728,7 +662,7 @@
 
 							<div class="col-md-4 mt-3 d-flex justify-content-center">
 								<!-- <div class="text-center"> -->
-									<h2>HACK STATION</h2>
+									<h2 class="text-center justify-content-center">ONTARIO TECH HACK STATION</h2>
 								<!-- </div> -->
 							</div>
 
