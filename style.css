@@ -33559,3 +33559,7 @@ body.dark {
   background-color: rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=style.css.map */
+
+.text-center.justify-content-center {
+  white-space: nowrap;
+}

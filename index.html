@@ -33,9 +33,14 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
 	<!-- Document Title
 	============================================= -->
-	<title>Jewellery Boutique | Canvas</title>
+	<title>Ontario Tech Hack Station</title>
 
 </head>
 
@@ -56,7 +61,7 @@
 						============================================= -->
 						<div id="logo">
 							<a href="index.html">
-								<img class="py-2 animated infinite" src="/images/logo.png" alt="Canvas Logo" style="animation: spin 2.5s infinite linear;">
+								<img class="py-2 animated infinite" src="images/logo.png" alt="Canvas Logo" style="animation: spin 2.5s infinite linear;">
 							</a>
 						</div><!-- #logo end -->
 
@@ -112,20 +117,14 @@
 						<nav class="one-page-menu primary-menu me-lg-auto not-dark">
 
 							<ul class="menu-container">
-								<!-- <li class="menu-item">
-									<a href="#" class="menu-link fw-bold" data-href="#wrapper"><div>Home</div></a>
-								</li> -->
 								<li class="menu-item">
-									<a href="#" class="menu-link fw-bold" data-href="#section-about"><div>About Us</div></a>
+									<a class="menu-link" href="#team"><div>Team</div></a>
 								</li>
 								<li class="menu-item">
-									<a href="#" class="menu-link fw-bold" data-href="#section-our-team"><div>Our Team</div></a>
+									<a class="menu-link" href="#events"><div>Events</div></a>
 								</li>
 								<li class="menu-item">
-									<a href="#" class="menu-link fw-bold" data-href="#section-events"><div>Events</div></a>
-								</li>
-								<li class="menu-item">
-									<a href="#" class="menu-link fw-bold" data-href="#section-contact-us"><div>Contact Us</div></a>
+									<a class="menu-link" href="#contact"><div>Contact</div></a>
 								</li>
 							</ul>
 							<!-- Alternate Mobile Menu -->
@@ -393,11 +392,7 @@
 				<div class="clear"></div>
 
 				<!-- Product Carousel Section - #4 -->
-				<div class="section bg-transparent mt-0 mt-lg-5" id="section-our-team">
-					<div class="heading-block text-center">
-						<h2>Our Team of Executives</h2>
-					</div>
-
+				<div id="team" class="section bg-transparent mt-0 mt-lg-5">
 					<div class="row gy-3">
 						<div class="col-lg-3">
 							<div class="product ps-5 pt-lg-5">
@@ -509,33 +504,41 @@
 										</div>
 									</div>
 
-									<div class="product text-center">
-										<div class="product-image" style="width: 400px; height: 400px; overflow: hidden; margin: 0 auto;">
-											<a href="#"><img src="images/affam-1.png" alt="Earrings" style="width: 100%; height: 100%; object-fit: cover;"></a>
-											<a href="#"><img src="images/rushi-2.jpeg" alt="Earrings" style="width: 100%; height: 100%; object-fit: cover;"></a>
-										</div>
-										<div class="product-desc mt-2">
-											<div class="product-title">
-												<a href="#" class="op-04 text-uppercase ls-1"><small>Social Media Lead</small></a>
-												<h2 class="mt-1 mb-0 h4"><a href="#">AFFAM</a></h2>
-											</div>
-											<div class="product-price fw-light mt-2"><ins>How you doin?😮‍💨</ins></div>
-										</div>
-									</div>
 
-									<div class="product text-center">
-										<div class="product-image" style="width: 400px; height: 400px; overflow: hidden; margin: 0 auto;">
-											<a href="#"><img src="images/asad-1.png" alt="Earrings" style="width: 100%; height: 100%; object-fit: cover;"></a>
-											<a href="#"><img src="images/rushi-2.jpeg" alt="Earrings" style="width: 100%; height: 100%; object-fit: cover;"></a>
-										</div>
-										<div class="product-desc mt-2">
-											<div class="product-title">
-												<a href="#" class="op-04 text-uppercase ls-1"><small>Management Lead</small></a>
-												<h2 class="mt-1 mb-0 h4"><a href="#">ASAD</a></h2>
-											</div>
-											<div class="product-price fw-light mt-2"><ins>How you doin?😮‍💨</ins></div>
+				<div class="section border-top-0 m-0">
+					<div class="container text-center">
+
+						<div class="heading-block text-center">
+							<h2>Upcoming Events</h2>
+							<span>Checkout our Upcoming new events</span>
+						</div>
+
+						<!-- <p>Millennium Development Goals, The Elders crisis situation cross-cultural time of extraordinary change minority. Long-term progress, humanitarian medicine capacity building free expression innovate. Natural resources criteria respect planned giving small-scale farmers.</p> -->
+
+				
+
+				<div id="events" class="owl-carousel image-carousel carousel-widget flip-card-wrapper" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="2" data-items-sm="2" data-items-md="2" data-items-lg="3" data-items-xl="4" style="overflow: visible;">
+
+					<div class="py-4">
+						<div class="flip-card">
+							<div class="flip-card-front dark" style="background-image: url('demos/photography/images/items/18.jpg')">
+								<div class="flip-card-inner">
+									<div class="card bg-transparent border-0">
+										<div class="card-body text-contrast-900">
+											<h3 class="card-title mb-0">Trekking</h3>
+											<span class="fst-italic">Chiang Mai</span>
 										</div>
 									</div>
+								</div>
+							</div>
+							<div class="flip-card-back bg-danger no-after">
+								<div class="flip-card-inner">
+									<p class="mb-2 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit.</p>
+									<button type="button" class="btn btn-outline-light mt-2">View Details</button>
+								</div>
+							</div>
+						</div>
+					</div>
 
 									<div class="product text-center">
 										<div class="product-image" style="width: 400px; height: 400px; overflow: hidden; margin: 0 auto;">
@@ -663,7 +666,7 @@
 				</div> -->
 
 				<!-- Banner Section - #5 -->
-				<div class="section my-0 mt-lg-5 pb-0 pb-lg-6 bg-transparent" id="section-contact-us">
+				<div id="contact" class="section my-0 mt-lg-5 pb-0 pb-lg-6 bg-transparent">
 					<div class="container mw-lg">
 
 						<div class="row justify-content-center">
@@ -742,7 +745,7 @@
 
 							<div class="col-md-4 mt-3 d-flex justify-content-center">
 								<!-- <div class="text-center"> -->
-									<h2>HACK STATION</h2>
+									<h2 class="text-center justify-content-center">ONTARIO TECH HACK STATION</h2>
 								<!-- </div> -->
 							</div>
 
